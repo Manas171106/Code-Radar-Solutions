@@ -2,26 +2,26 @@
 int main(){
     int a,b,result;
     char c;
-    scanf("%d %d %*c%c",&a,&b,&c);
+    scanf("%d %d %c",&a,&b,&c);
     switch(c){
         case '+':
-        result = a+b;
-        printf("%d",result);
-        break;
+            result = a+b;
+            printf("%d",result);
+            break;
         case '-':
-        result = a-b;
-        printf("%d",result);
-        break;
+            result = a-b;
+            printf("%d",result);
+            break;
         case '/':
-        result = a/b;
-        printf("%d",result);
-        break;
+            result = a/b;
+            printf("%d",result);
+            break;
         case '*':
-        result = a*b;
-        printf("%d",result);
-        break;
+            result = a*b;
+            printf("%d",result);
+            break;
         default:
-        printf("error");
-        break;
+            printf("error");
+            break;
     }
 }
