@@ -6,17 +6,22 @@ int main(){
     switch(c){
         case '+':
         result = a+b;
+        printf("%d",result);
         break;
         case '-':
         result = a-b;
+        printf("%d",result);
         break;
         case '/':
         result = a/b;
+        printf("%d",result);
         break;
         case '*':
         result = a*b;
+        printf("%d",result);
         break;
         default:
-        printf("error")
+        printf("error");
+        break;
     }
 }
