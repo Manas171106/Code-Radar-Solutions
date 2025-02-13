@@ -2,7 +2,7 @@
 int main(){
     int a,b,result;
     char c;
-    scanf("%d %d %c",&a,&b,&c);
+    scanf("%d %d %*c%c",&a,&b,&c);
     switch(c){
         case '+':
         result = a+b;
