@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 int main(){
     int a;
     scanf("%d",&a);
@@ -8,10 +9,10 @@ int main(){
     }else if(a>2){
         for(int i=2;i<a;i++){
             if(a%i==0){
-                bool b = false;
+                b = false;
             }
         }
-        if(bool){
+        if(b){
             printf("Prime");
         }
     }else{
