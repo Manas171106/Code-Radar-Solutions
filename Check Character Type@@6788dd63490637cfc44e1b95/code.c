@@ -1,4 +1,4 @@
-#indlude <stdio.h>
+#indclude <stdio.h>
 int main(){
     char a;
     scanf("%c",&a);
@@ -9,7 +9,7 @@ int main(){
             printf("Consonant");
         }
     }
-    else if(a>=0 && a<=9){
+    else if(a>='0' && a<='9'){
         printf("Digit");
     }
     else{
