@@ -4,7 +4,6 @@ int main() {
     int a, b, result;
     char c;
 
-    // Fix: Add space before %c to avoid reading leftover '\n' character
     scanf("%d %d %c", &a, &b, &c);
 
     switch (c) {
@@ -22,7 +21,7 @@ int main() {
             break;
         case '/':
             if (b == 0) {
-                printf("Error: Division by zero\n");
+                printf("error\n");
             } else {
                 result = a / b;
                 printf("%d\n", result);
