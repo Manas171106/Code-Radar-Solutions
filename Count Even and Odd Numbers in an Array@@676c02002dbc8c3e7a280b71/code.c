@@ -6,7 +6,7 @@ int main(){
 for(int i=0;i<a;i++){
     scanf("%d",&arr[i]);
     if(arr[i]%2==0){
-        even ++;
+        even++;
     }
     else{
         odd++;
@@ -14,5 +14,4 @@ for(int i=0;i<a;i++){
 }
 printf("%d %d",even,odd);
 return 0;
-
 }
