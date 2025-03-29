@@ -13,7 +13,7 @@ int main(){
     }
 
     for(int i=0;i<a;i++){
-        printf("%d",parr[i]);
+        printf("%d ",parr[i]);
     }
     return 0;
 }
