@@ -10,13 +10,11 @@ int main(){
             index = i;
         }
     }
-    arr[index] = 0;
+    arr[index] = -1;
     int max2 = -1;
     for(int i=0;i<a;i++){
         if(max2 < arr[i]){
             max2 = arr[i];
-        }else if(arr[i] == max2 ){
-            max2 = -1;
         }
     }
     printf("%d",max2);
