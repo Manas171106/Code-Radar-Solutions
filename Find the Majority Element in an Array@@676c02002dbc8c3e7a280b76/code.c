@@ -36,6 +36,16 @@ int main(){
             maxInd = i;
         }
     }
+    int countmax = ;
+    for(int i=0;i<index;i++){
+        if(max == count[i]){
+            countmax++;
+        }
+    }
+    if(countmax==1){
     printf("%d",uarr[maxInd]);
+    }else{
+        printf("-1");
+    }
     return 0;
 }
