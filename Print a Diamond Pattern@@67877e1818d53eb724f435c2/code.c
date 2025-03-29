@@ -11,5 +11,6 @@ int main(){
             printf("*");
         }
         b+=2;
+        printf("\n");
     }
 }
