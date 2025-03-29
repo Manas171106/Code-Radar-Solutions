@@ -16,8 +16,20 @@ int main(){
         pind++;
     }
 
+    // for(int i=0;i<a;i++){
+    //     printf("%d ",parr[i]);
+    // }
+
+    int check = 0;
     for(int i=0;i<a;i++){
-        printf("%d ",parr[i]);
+        if(parr[i] != arr[i]){
+            check = -1;
+        }
+    }
+    if(check == -1){
+        printf("NO");
+    }else{
+        printf("YES");
     }
     return 0;
 }
