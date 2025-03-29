@@ -8,7 +8,7 @@ int main(){
     }
     int min = 1000,min1 = 0,min2 = 0,b;
     for(int i=0;i<a;i++){
-        for(int j=0;j<a;j++){
+        for(int j=i+1;j<a;j++){
             if(i!=j){
                 a = arr[i];
                 b = arr[j];
@@ -16,11 +16,6 @@ int main(){
                     min = a-b;
                     min1 = b;
                     min2 = a;
-                }
-                if(b>a && (b-a) < min && (b-a)>0){
-                    min = b-a;
-                    min1 = a;
-                    min2 = b;
                 }
             }
         }
