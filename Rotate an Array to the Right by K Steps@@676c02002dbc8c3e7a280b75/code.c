@@ -7,6 +7,9 @@ int main(){
         scanf("%d ",&arr[i]);
     }
     scanf("%d",&k);
+    if(k>a){
+        k-=a;
+    }
     for(int i=a-k;i<a;i++){
         printf("%d ",arr[i]);
     }
