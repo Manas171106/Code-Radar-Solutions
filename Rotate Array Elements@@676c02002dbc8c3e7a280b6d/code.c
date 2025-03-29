@@ -16,7 +16,7 @@ int main(){
         arr2[index] = arr[i];
         index++;
     }
-    for(int i=0;i<a;i++){
+    for(int i=0;i<a-b;i++){
         printf("%d\n",arr2[i]);
     }
     return 0;
