@@ -6,7 +6,7 @@ int main(){
     for(int i=0;i<a;i++){
         scanf("%d\n",&arr[i]);
     }
-    check = -1;
+    int check = -1;
     int res[10],index=0;
     if(arr[0] > arr[1]){
         res[index] = arr[1];
