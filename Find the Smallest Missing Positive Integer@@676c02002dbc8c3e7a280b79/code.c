@@ -27,5 +27,10 @@ int main(){
             n = i;
         }
     }
+    if(n<0){
+        printf("1");
+    }else{
     printf("%d",n);
+    }
+
 }
