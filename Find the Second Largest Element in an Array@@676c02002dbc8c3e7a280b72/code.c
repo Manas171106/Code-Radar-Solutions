@@ -19,11 +19,10 @@ int main(){
             number2 = 1;
         }
     }
-   if (number2) {
-        printf("-1\n");
-    }
-    if (!number2){
-        printf("%d\n", max2);
-    }
+   if(!(number2)){
+    printf("%d",-1);
+   }else{
+    printf("%d",max2);
+   }
     return 0;
 }
