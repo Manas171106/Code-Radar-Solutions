@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int a,arr[100]index=0;
+    int a,arr[100];
     scanf("%d",&a);
     scanf("%d", &arr[0]);
     int max = arr[0]; 
