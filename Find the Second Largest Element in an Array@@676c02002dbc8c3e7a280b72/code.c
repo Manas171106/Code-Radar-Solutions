@@ -21,7 +21,8 @@ int main(){
     }
    if (number2) {
         printf("-1\n");
-    } else {
+    }
+    if (!number2){
         printf("%d\n", max2);
     }
     return 0;
