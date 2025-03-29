@@ -23,6 +23,6 @@ int main(){
             }
         }
     }
-    printf("%d %d",min1,min2);
+    printf("%d %d",min2,min1);
     return 0;
 }
