@@ -26,7 +26,7 @@ int main(){
         check++;
     }
     if(check == -1){
-        printf("%d\n",check)
+        printf("%d\n",check);
     }else{
 printf("%d",res[0]);
     }
