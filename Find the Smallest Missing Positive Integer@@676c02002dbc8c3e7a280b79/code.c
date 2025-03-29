@@ -16,7 +16,7 @@ int main(){
         }
     }
     int check,n;
-    for(int i=min;i<=max;i++){
+    for(int i=min;i<=max+1;i++){
         check = 0;
         for(int j=0;j<a;j++){
             if(i==arr[j]){
