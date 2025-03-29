@@ -30,7 +30,7 @@ int main(){
     if(n<0){
         printf("1");
     }else if(n==max){
-        printf("%d+1",n);
+        printf("%d",n+1);
     }
     else{
     printf("%d",n);
