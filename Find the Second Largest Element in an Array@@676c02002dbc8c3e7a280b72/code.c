@@ -14,9 +14,8 @@ int main(){
     int max2 = -100;
     int number2 = 0;
     for(int i=0;i<a;i++){
-        if(max2 < arr[i]){
+       if (arr[i] != max && arr[i] > max2) {
             max2 = arr[i];
-            number2 = 1;
         }
     }
    if(!(number2)){
