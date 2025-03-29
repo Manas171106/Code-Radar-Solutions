@@ -13,4 +13,13 @@ int main(){
         b+=2;
         printf("\n");
     }
+    for(int i=1;i<a;i++){
+        for(int k=1;k<=i;k++){
+            printf(" ");
+        }
+        for(int j=1;j<=b-2;j++){
+            printf("*");
+        }
+        printf("\n");
+    }
 }
