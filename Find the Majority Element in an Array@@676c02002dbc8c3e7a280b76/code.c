@@ -6,11 +6,23 @@ int main(){
     for(int i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
+    int duplicate,uarr[100],uind = 0;
+    for(int i=0;i<a;i++){
+        duplicate = 0;
+        if(uarr[i] == arr[i]){
+            duplicate = 1;
+        }
+        if(!duplicate){
+            uarr[uind] = arr[i];
+            uind++;
+        }
+    }
+    
     int index=0,c;
     for(int i=0;i<a;i++){
         c = 0;
         for(int j=0;j<a;j++){
-            if(arr[i] == arr[j]){
+            if(uarr[i] == arr[j]){
                 c++;
             }
         }
