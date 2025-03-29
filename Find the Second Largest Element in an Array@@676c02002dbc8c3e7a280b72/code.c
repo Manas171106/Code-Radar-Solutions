@@ -12,11 +12,17 @@ int main(){
     }
     arr[index] = -1;
     int max2 = -1;
+    int number2 = 0;
     for(int i=0;i<a;i++){
         if(max2 < arr[i]){
             max2 = arr[i];
+            number2 = 1;
         }
     }
-    printf("%d",max2);
+   if (!found_second) {
+        printf("-1\n");
+    } else {
+        printf("%d\n", max2);
+    }
     return 0;
 }
