@@ -1,12 +1,13 @@
 // Your code here...
 #include <stdio.h>
+#include <limits.h>
 int main(){
     int a,arr[100];
     scanf("%d",&a);
     for(int i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
-    int diff,min1=0,min2=0,mindiff = -1000;
+    int diff,min1=0,min2=0,mindiff = INT_MAX;
     for(int i=0;i<a;i++){
         for(int j=0;j<a;j++){
             if(i!=j){
@@ -19,7 +20,6 @@ int main(){
                     min1 = arr[i];
                     min2 = arr[j];
                 }
-
             }
         }
     }
