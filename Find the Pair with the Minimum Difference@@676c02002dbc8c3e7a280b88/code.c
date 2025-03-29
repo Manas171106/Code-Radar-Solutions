@@ -13,10 +13,12 @@ int main(){
                 if(arr[i]-arr[j] > 0 && diff > arr[i]-arr[j]){
                     min1 = arr[j];
                     min2 = arr[i];
+                    diff = arr[i]-arr[j];
                 }
                 if(arr[j] - arr[i] > 0 && diff > arr[j]-arr[i]){
                     min1 = arr[i];
                     min2 = arr[j];
+                    diff = arr[j] - arr[i];
                 }
             }
         }
