@@ -1,6 +1,6 @@
 // Your code here...
 #include <stdio.h>
-int main()[
+int main(){
     int a,arr[100];
     scanf("%d",&a);
     for(int i=0;i<a;i++){
@@ -27,4 +27,4 @@ int main()[
     }
     printf("%d %d",min1,min2);
     return 0;
-]
+}
