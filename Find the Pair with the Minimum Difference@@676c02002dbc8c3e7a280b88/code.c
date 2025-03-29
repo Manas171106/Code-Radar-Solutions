@@ -6,22 +6,20 @@ int main(){
     for(int i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
-    int diff = 0,min1,min2;
+    int diff,min1=0,min2=0,mindiff = -1000;
     for(int i=0;i<a;i++){
         for(int j=0;j<a;j++){
             if(i!=j){
-                if(arr[i]-arr[j] > 0 && diff > arr[i]-arr[j]){
-                    min1 = arr[j];
-                    min2 = arr[i];
-                    diff = arr[i]-arr[j];
-                    printf("%d ",diff);
+                diff = arr[i] - arr[j];
+                if(diff < 0){
+                    diff = -diff;
                 }
-                if(arr[j]-arr[i] > 0 && diff > arr[j]-arr[i]){
+                if(diff<mindiff){
+                    mindiff = diff;
                     min1 = arr[i];
                     min2 = arr[j];
-                    diff = arr[j] - arr[i];
-                     printf("%d ",diff);
                 }
+
             }
         }
     }
