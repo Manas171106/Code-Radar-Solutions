@@ -7,7 +7,11 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int parr[100],pind = 0;
-    for(int i=1;i< (a/2)+1;i++){
+    for(int i=1;i< (a/2)+2;i++){
+        parr[pind] = i;
+        pind++;
+    }
+    for(int i=(a/2);i>0;i--){
         parr[pind] = i;
         pind++;
     }
