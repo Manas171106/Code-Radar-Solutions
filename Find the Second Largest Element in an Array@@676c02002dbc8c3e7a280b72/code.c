@@ -10,8 +10,8 @@ int main(){
             index = i;
         }
     }
-    arr[index] = -1;
-    int max2 = -1;
+    arr[index] = -100;
+    int max2 = -100;
     int number2 = 0;
     for(int i=0;i<a;i++){
         if(max2 < arr[i]){
