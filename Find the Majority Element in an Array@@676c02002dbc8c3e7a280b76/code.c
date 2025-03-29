@@ -36,6 +36,6 @@ int main(){
             maxInd = i;
         }
     }
-    printf("%d",arr[maxInd]);
+    printf("%d",uarr[maxInd]);
     return 0;
 }
