@@ -19,7 +19,7 @@ int main(){
             number2 = 1;
         }
     }
-   if (!found_second) {
+   if (!number2) {
         printf("-1\n");
     } else {
         printf("%d\n", max2);
