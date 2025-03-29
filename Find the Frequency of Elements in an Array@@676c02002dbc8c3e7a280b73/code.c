@@ -32,7 +32,8 @@ int main(){
         freq[ind] = count;
         ind++;
     }
-    for(int i=0;i<a;i++){
+    int size = sizeof(uarr)/sizeof(uarr[0]);
+    for(int i=0;i<size;i++){
         printf("%d %d\n",uarr[i],freq[i]);
     }
     return 0;
