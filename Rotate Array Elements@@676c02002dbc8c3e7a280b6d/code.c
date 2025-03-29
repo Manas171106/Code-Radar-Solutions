@@ -12,7 +12,7 @@ int main(){
         arr2[index] = arr[i];
         index++;
     }
-    for(int i=0;i<b;i++){
+    for(int i=0;i<a;i++){
         arr2[index] = arr[i];
         index++;
     }
