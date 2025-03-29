@@ -11,7 +11,7 @@ int main(){
         }
     }
     arr[index] = 0;
-    int max2 = 0;
+    int max2 = -1;
     for(int i=0;i<a;i++){
         if(max2 < arr[i]){
             max2 = arr[i];
