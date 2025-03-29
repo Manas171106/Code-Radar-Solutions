@@ -22,7 +22,7 @@ int main(){
    if (number2) {
         printf("-1\n");
     }
-    if (!number2){
+    if (number2){
         printf("%d\n", max2);
     }
     return 0;
