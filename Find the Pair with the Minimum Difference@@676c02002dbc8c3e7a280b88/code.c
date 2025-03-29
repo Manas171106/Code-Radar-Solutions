@@ -12,12 +12,12 @@ int main(){
             if(i!=j){
                 a = arr[i];
                 b = arr[j];
-                if(a>b && (a-b) < min){
+                if(a>b && (a-b) < min && (a-b)>0){
                     min = a-b;
                     min1 = b;
                     min2 = a;
                 }
-                if(b>a && (b-a) < min){
+                if(b>a && (b-a) < min && (b-a)>0){
                     min = b-a;
                     min1 = a;
                     min2 = b;
