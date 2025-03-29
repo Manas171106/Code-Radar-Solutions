@@ -37,7 +37,7 @@ int main(){
         }
     }
     int countmax = 0;
-    for(int i=0;i<index;i++){
+    for(int i=0;i<a;i++){
         if(max == count[i]){
             countmax++;
         }
