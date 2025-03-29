@@ -15,7 +15,7 @@ int main(){
     for(int i=0;i<a;i++){
         if(max2 < arr[i]){
             max2 = arr[i];
-        }else if(arr[i] == max2){
+        }if(arr[i] == max2 ){
             max2 = -1;
         }
     }
