@@ -14,11 +14,13 @@ int main(){
                     min1 = arr[j];
                     min2 = arr[i];
                     diff = arr[i]-arr[j];
+                    printf("%d",diff);
                 }
-                if(arr[j] - arr[i] > 0 && diff > arr[j]-arr[i]){
+                if(arr[j]-arr[i] > 0 && diff > arr[j]-arr[i]){
                     min1 = arr[i];
                     min2 = arr[j];
                     diff = arr[j] - arr[i];
+                     printf("%d",diff);
                 }
             }
         }
