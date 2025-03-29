@@ -6,7 +6,7 @@ int main(){
     for(int i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
-    min = 1000,min1 = 0,min2 = 0;
+    int min = 1000,min1 = 0,min2 = 0;
     for(int i=0;i<a;i++){
         for(int j=0;j<a;j++){
             if(i!=j){
