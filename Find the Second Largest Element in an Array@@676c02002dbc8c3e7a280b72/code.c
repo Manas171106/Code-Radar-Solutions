@@ -19,7 +19,7 @@ int main(){
             number2 = 1;
         }
     }
-   if(!(number2)){
+   if((number2==-100)){
     printf("%d",-1);
    }else{
     printf("%d",max2);
