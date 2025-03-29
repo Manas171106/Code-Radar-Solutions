@@ -11,7 +11,7 @@ int main(){
         }
     }
     // arr[index] = -100;
-    int max2 = -100;
+    int max2 = -1;
     int number2 = 0;
     for(int i=0;i<a;i++){
        if (arr[i] != max && arr[i] > max2) {
