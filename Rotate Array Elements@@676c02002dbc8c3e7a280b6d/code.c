@@ -17,7 +17,7 @@ int main(){
         index++;
     }
     for(int i=0;i<a;i++){
-        printf("%d",arr2[i]);
+        printf("%d\n",arr2[i]);
     }
     return 0;
 }
