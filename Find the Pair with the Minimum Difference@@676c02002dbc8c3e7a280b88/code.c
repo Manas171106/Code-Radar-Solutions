@@ -23,6 +23,11 @@ int main(){
             }
         }
     }
-    printf("%d %d",min2,min1);
+    if(min1 > min2){
+        printf("%d %d",min2,min1);
+    }
+    else{
+        printf("%d %d",min1,min2);
+    }
     return 0;
 }
