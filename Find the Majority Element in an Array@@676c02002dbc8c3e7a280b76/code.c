@@ -36,7 +36,7 @@ int main(){
             maxInd = i;
         }
     }
-    int countmax = ;
+    int countmax = 0;
     for(int i=0;i<index;i++){
         if(max == count[i]){
             countmax++;
