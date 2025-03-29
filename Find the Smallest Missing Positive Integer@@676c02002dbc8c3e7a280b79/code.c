@@ -15,12 +15,16 @@ int main(){
             min = arr[i];
         }
     }
-    int check = 0,n;
+    int check,n;
     for(int i=min;i<=max;i++){
+        check = 0;
         for(int j=0;j<a;j++){
-            if(i != arr[j]){
-                n = i;
+            if(i==arr[j]){
+                check = 1;
             }
+        }
+        if(check == 0){
+            n = i;
         }
     }
     printf("%d",n);
