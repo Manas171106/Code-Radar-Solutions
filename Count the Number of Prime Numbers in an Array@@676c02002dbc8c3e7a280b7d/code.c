@@ -18,6 +18,6 @@ int main(){
             count++;
         }
     }
-    printf("%d",check);
+    printf("%d",count);
     return 0;
 }
