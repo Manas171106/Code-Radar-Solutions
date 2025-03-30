@@ -10,7 +10,7 @@ int main(){
     for(int i=0;i<a;i++){
         b = arr[i];
         count = 0;
-        while(b!=0){
+        while(b>0){
             rem = b%10;
             count += rem;
             b = (b/10);
