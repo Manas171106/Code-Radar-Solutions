@@ -16,7 +16,7 @@ int main(){
         }
         if(check == -1){
             count++;
-            printf("%d",arr[i]);
+            printf("\n%d",arr[i]);
         }
     }
     printf("%d",count);
