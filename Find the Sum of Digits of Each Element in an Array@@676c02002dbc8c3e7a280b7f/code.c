@@ -10,6 +10,9 @@ int main(){
     for(int i=0;i<a;i++){
         b = arr[i];
         count = 0;
+        if(b<0){
+            b = -b;
+        }
         while(b>0){
             rem = b%10;
             count += rem;
