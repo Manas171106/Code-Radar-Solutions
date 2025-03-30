@@ -18,7 +18,7 @@ int main(){
         sod[i]=count;
     }
     for(int i=0;i<a;i++){
-        printf("%d ",&sod[i]);
+        printf("%d ",sod[i]);
     }
     return 0;
 }
