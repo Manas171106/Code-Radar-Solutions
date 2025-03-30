@@ -13,7 +13,7 @@ int main(){
         while(b!=0){
             rem = b%10;
             count += rem;
-            b = int(b/10);
+            b = (b/10);
         }
         sod[i]=count;
     }
