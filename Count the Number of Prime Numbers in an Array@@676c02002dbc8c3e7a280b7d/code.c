@@ -9,7 +9,7 @@ int main(){
     int count = 0,check;
     for(int i=0;i<a;i++){
         check = -1;
-        for(int j=2;j<a;j++){
+        for(int j=2;j<arr[i];j++){
             if(arr[i]%j==0){
                 check = 0;
             }
